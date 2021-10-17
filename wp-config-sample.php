@@ -83,15 +83,15 @@ if (!empty($_SERVER['HTTP_X_FORWARDED_PROTO'])
 define('WP_HOME', (empty($_SERVER['HTTPS']) ? 'http' : 'https') . '://' . getenv('WP_DOMAIN'));
 define('WP_SITEURL', (empty($_SERVER['HTTPS']) ? 'http' : 'https') . '://' . getenv('WP_DOMAIN'));
 
-// Auto-update without FTP
-define('FS_METHOD', 'direct');
-
 /**
  * Security
  */
 
 // Disallow file edit
 define( 'DISALLOW_FILE_EDIT', true);
+
+// Auto-update without FTP
+define('FS_METHOD', 'direct');
 
 /* That's all, stop editing! Happy blogging. */
 /** Absolute path to the WordPress directory. */
