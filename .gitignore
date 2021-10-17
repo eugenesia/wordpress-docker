@@ -1,0 +1,10 @@
+# App code
+/www
+!/www/.gitkeep
+
+# Docker config
+/docker/.env
+
+# OS temp files
+.DS_Store
+
