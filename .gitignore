@@ -5,6 +5,10 @@
 # Docker config
 /docker/.env
 
+# Database dumps
+/db
+!/db/.gitkeep
+
 # OS temp files
 .DS_Store
 

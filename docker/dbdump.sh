@@ -15,5 +15,5 @@ mysqldump \
   --no-tablespaces \
   --column-statistics=0 \
   -- $MYSQL_DATABASE \
-  | gzip > wordpress_$dateStr.sql.gz
+  | gzip > ../db/wordpress_$dateStr.sql.gz
 
